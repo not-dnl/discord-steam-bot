@@ -1,0 +1,5 @@
+version: '3'
+services:
+  node:
+    restart: unless-stopped
+    build: .
